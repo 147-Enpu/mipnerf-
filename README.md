@@ -50,3 +50,14 @@ To prepare a dataset with your images, [COLMAP](https://colmap.github.io/) needs
 conda env create --file environment.yml
 conda activate mipnerfplus
 ```
+## Quick start
+The training script is in 'ddp_train_nerf.py', to train a mip-NeRF++:
+```python
+python ddp_train_nerf.py --config configs/tanks_and_temples/tat_training_truck.txt
+```
+
+## Test and render
+```python
+python ddp_test_nerf.py --config configs/tanks_and_temples/tat_training_truck.txt \
+                        --render_splits test,camera_path
+```
