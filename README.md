@@ -1,2 +1,2 @@
 # mipnerfplusplus
-This repository contains the code release for [Reconstruction and Rendering of Buildings as Radiance Fields for View Synthesis](http://resolver.tudelft.nl/uuid:87d5d228-e00d-4cea-9e70-985315956556). 
+This repository contains the code release for [Reconstruction and Rendering of Buildings as Radiance Fields for View Synthesis](http://resolver.tudelft.nl/uuid:87d5d228-e00d-4cea-9e70-985315956556). This implementation combines [NeRF++](https://github.com/Kai-46/nerfplusplus) and [mip-NeRF](https://github.com/google/mipnerf). Specifically, the foreground network of NeRF++ is replaced with mip-NeRF and the background scene still represents by NeRF. 
