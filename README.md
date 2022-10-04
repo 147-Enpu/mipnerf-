@@ -32,7 +32,9 @@ To prepare a dataset with your images, [COLMAP](https://colmap.github.io/) needs
         |-- 1.txt
         ...
 |-- test
+    ...
 |-- validation
+    ...
 |-- camera path          # camera path for rendering purpose      
     |-- pose
         |-- 0.txt        # camera pose for each view (4x4 matrices)
@@ -42,4 +44,9 @@ To prepare a dataset with your images, [COLMAP](https://colmap.github.io/) needs
         |-- 0.txt        # camera intrinsics for each view (4x4 matrices)
         |-- 1.txt
         ...
+```
+## Create environment
+```bash
+conda env create --file environment.yml
+conda activate mipnerfplus
 ```
