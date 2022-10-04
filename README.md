@@ -8,5 +8,6 @@ This thesis explores the ability to reconstruct large-field scenes with NeRF-bas
 
 According to our experiments, training foreground and background separately is a promising method to solve practical large-scale scene reconstruction problems. A complete wrap-around view of the target building can be obtained using adjusted camera path parameters. Furthermore, introducing conical frustum casting into the original model also provides an alternative method to implement reconstruction. We named this method mip-NeRF++, which can contribute to the final results to some extent.
 
-## Demo
-![](demo/train.gif) ![](demo/buildings.gif)
+## Data
+Download our pre-processed large-scale scene [buildings](https://drive.google.com/drive/folders/1SO6ku2NWfjezbLM8tZ28KmCSeTcW_-OH?usp=sharing), or the pre-processed [tanks_and_temples](https://drive.google.com/file/d/11KRfN91W1AxAW6lOFs4EeYDbeoQZCi87/view?usp=sharing). And put the data in the sub-folder data/ of this code directory.
+### Prepare your own dataset
