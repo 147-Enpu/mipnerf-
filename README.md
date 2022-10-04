@@ -14,7 +14,7 @@ According to our experiments, training foreground and background separately is a
 ## Data
 Download our pre-processed large-scale scene [buildings](https://drive.google.com/drive/folders/1SO6ku2NWfjezbLM8tZ28KmCSeTcW_-OH?usp=sharing), or the pre-processed [tanks_and_temples](https://drive.google.com/file/d/11KRfN91W1AxAW6lOFs4EeYDbeoQZCi87/view?usp=sharing). And put the data in the sub-folder data/ of this code directory.
 ### Prepare your own dataset
-To prepare a dataset with your images, [COLMAP](https://colmap.github.io/) needs to be installed firstly. Then follow the instruction from [NeRF++](https://github.com/Kai-46/nerfplusplus#generate-camera-parameters-intrinsics-and-poses-with-colmap-sfm) to generate JSON files. Finally, use the scripts in 'dataset_construct.py' to generate the dataset as following structure:
+To prepare a dataset with your images, [COLMAP](https://colmap.github.io/) needs to be installed firstly. Then follow the instruction from [NeRF++](https://github.com/Kai-46/nerfplusplus#generate-camera-parameters-intrinsics-and-poses-with-colmap-sfm) to generate JSON files. Finally, use the scripts in `dataset_construct.py` to generate the dataset as following structure:
 
 ```bash
 <dataset_name>
