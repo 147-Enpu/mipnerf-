@@ -1,4 +1,4 @@
-name: nerfplusplus
+name: mipnerfplus
 channels:
   - defaults
 dependencies:
