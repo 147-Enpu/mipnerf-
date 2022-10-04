@@ -18,20 +18,28 @@ To prepare a dataset with your images, [COLMAP](https://colmap.github.io/) needs
 
 ```bash
 <dataset_name>
-|-- rgb
-    |-- 0.png        # target image for each view
-    |-- 1.png
-    ...
-|-- pose
-    |-- 0.txt        # camera pose for each view (4x4 matrices)
-    |-- 1.txt
-    ...
-|-- intrinsic
-    |-- 0.txt        # camera intrinsics for each view (4x4 matrices)
-    |-- 1.txt
-    ...
-|-- camera path
-    |-- 0.txt        # camera path for rendering purpose
-    |-- 1.txt
-    ...
+|-- train
+    |-- rgb
+        |-- 0.png        # target image for each view
+        |-- 1.png
+        ...
+    |-- pose
+        |-- 0.txt        # camera pose for each view (4x4 matrices)
+        |-- 1.txt
+        ...
+    |-- intrinsic
+        |-- 0.txt        # camera intrinsics for each view (4x4 matrices)
+        |-- 1.txt
+        ...
+|-- test
+|-- validation
+|-- camera path          # camera path for rendering purpose      
+    |-- pose
+        |-- 0.txt        # camera pose for each view (4x4 matrices)
+        |-- 1.txt
+        ...
+    |-- intrinsic
+        |-- 0.txt        # camera intrinsics for each view (4x4 matrices)
+        |-- 1.txt
+        ...
 ```
