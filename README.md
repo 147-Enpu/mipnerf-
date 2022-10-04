@@ -63,7 +63,8 @@ python ddp_test_nerf.py --config configs/tanks_and_temples/tat_training_truck.tx
 ```
 
 ## Camera path preparation
-You can use the script in 'camera_path' to define the locations of cameras which are used to observe the reconstructed target and generate videos as shown in the demo.
+You can use the script in 'ccamera_path' to define the locations of cameras which are used to observe the reconstructed target and generate videos as shown in the demo.
+
 * Use 'generate_camera_path.py' to define a batch of cameras on a circle. 
 * Run 'normailze.py' to move the average camera center to origin, and put all the camera centers inside the unit sphere.
 * 'visualiza_camera.py' can compare the relative location of two sets of camera path, it may be helpful to adjust the parameters in previous two steps. 
