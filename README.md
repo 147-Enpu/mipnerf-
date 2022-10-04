@@ -10,6 +10,7 @@ According to our experiments, training foreground and background separately is a
 
 ## Demo
 <img src="https://github.com/147-Enpu/mipnerfplusplus/blob/master/demo/buildings.gif" width="320" alt="buildings">
+<img src="https://github.com/147-Enpu/mipnerfplusplus/blob/master/demo/train.gif" width="320" alt="train">
 
 ## Data
 Download our pre-processed large-scale scene [buildings](https://drive.google.com/drive/folders/1SO6ku2NWfjezbLM8tZ28KmCSeTcW_-OH?usp=sharing), or the pre-processed [tanks_and_temples](https://drive.google.com/file/d/11KRfN91W1AxAW6lOFs4EeYDbeoQZCi87/view?usp=sharing). And put the data in the sub-folder data/ of this code directory.
